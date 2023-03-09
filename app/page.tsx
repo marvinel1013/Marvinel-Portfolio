@@ -1,7 +1,11 @@
+import AboutSection from "@/components/AboutSection";
+import HeroSection from "@/components/HeroSection";
+
 function Home() {
   return (
     <main>
-      <div></div>
+      <HeroSection />
+      <AboutSection />
     </main>
   );
 }
